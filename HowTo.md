@@ -9,4 +9,8 @@ You can generate 3D scenes from 2D spatial vectors and run simulations on them u
 Other than the script itself, you need a PostgreSQL database with PostGIS installed, a climate file and CitySim solver.
 
 ## What's the structure of the PostgreSQL database?
-Format: ![db_schemas](https://github.com/rboghe/PythonDatabaseLinker/blob/master/images/schemas.png?raw=true)
+The structure of the database is made up of 4 schemas:
+
+![db_schemas](https://github.com/rboghe/PythonDatabaseLinker/blob/master/images/schemas.png?raw=true)
+
+* *This table will be created or updated by the script if needed
