@@ -13,4 +13,4 @@ The structure of the database is made up of 4 schemas:
 
 ![db_schemas](https://github.com/rboghe/PythonDatabaseLinker/blob/master/images/schemas.png?raw=true)
 
-* *This table will be created or updated by the script if needed
+*_This table will be created or updated by the script if needed_
