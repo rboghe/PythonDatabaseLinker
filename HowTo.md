@@ -10,7 +10,10 @@ Other than the script itself, you need a PostgreSQL database with PostGIS instal
 
 ## What's the structure of the PostgreSQL database?
 The structure of the database is made up of 4 schemas:
-
+<br />
+<br />  
 ![db_schemas](https://github.com/rboghe/PythonDatabaseLinker/blob/master/images/schemas.png?raw=true)
-
 *_This table will be created or updated by the script if needed_
+<br />
+<br />
+The first schema, city, contains the geometrical information needed to create the scene and the general features of the buildings.
